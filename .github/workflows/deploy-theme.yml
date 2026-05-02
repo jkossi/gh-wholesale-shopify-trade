@@ -26,9 +26,8 @@ jobs:
           SHOPIFY_CLI_THEME_TOKEN: ${{ secrets.SHOPIFY_CLI_THEME_TOKEN }}
           SHOPIFY_FLAG_STORE: ${{ secrets.SHOPIFY_FLAG_STORE }}
           SHOPIFY_FLAG_FORCE: 1
+          SHOPIFY_FLAG_THEME_ID: 161236549853
         run: |
           shopify theme push \
             --json \
-            --theme 161236549853 \
-            --password ${{ secrets.SHOPIFY_CLI_THEME_TOKEN }} \
-            --store ${{ secrets.SHOPIFY_FLAG_STORE }} \
+            --theme ${{ env.SHOPIFY_FLAG_THEME_ID }}
