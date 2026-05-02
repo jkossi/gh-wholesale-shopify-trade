@@ -27,6 +27,5 @@ jobs:
         run: |
           shopify theme push \
             --json \
-            --strict \
             --theme 161236549853 \
             --store ${{ secrets.SHOPIFY_FLAG_STORE }}
