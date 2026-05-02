@@ -24,8 +24,11 @@ jobs:
       - name: Upload theme
         env:
           SHOPIFY_CLI_THEME_TOKEN: ${{ secrets.SHOPIFY_CLI_THEME_TOKEN }}
+          SHOPIFY_FLAG_STORE: ${{ secrets.SHOPIFY_FLAG_STORE }}
+          SHOPIFY_FLAG_FORCE: 1
         run: |
           shopify theme push \
             --json \
             --theme 161236549853 \
-            --store ${{ secrets.SHOPIFY_FLAG_STORE }}
+            --password ${{ secrets.SHOPIFY_CLI_THEME_TOKEN }} \
+            --store ${{ secrets.SHOPIFY_FLAG_STORE }} \
