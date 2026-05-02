@@ -22,6 +22,8 @@ jobs:
         run: npm install -g @shopify/cli
     
       - name: debug secrets
+        env:
+          SHOPIFY_TEST: ${{ env.SHOPIFY_TEST }}
         run: |
           echo "SHOPIFY_CLI_THEME_TOKEN: ${{ secrets.SHOPIFY_CLI_THEME_TOKEN }}"
           echo "SHOPIFY_FLAG_STORE: ${{ secrets.SHOPIFY_FLAG_STORE }}"
