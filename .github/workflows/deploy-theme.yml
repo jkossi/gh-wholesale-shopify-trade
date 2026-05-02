@@ -36,6 +36,6 @@ jobs:
         run: |
           shopify theme push \
             --json \
-            --store ${{ env.SHOPIFY_FLAG_STORE }} \
-            --password ${{ env.SHOPIFY_CLI_THEME_TOKEN }} \
-            --theme ${{ env.SHOPIFY_FLAG_THEME_ID }}
+            --store="$SHOPIFY_FLAG_STORE" \
+            --password="$SHOPIFY_CLI_THEME_TOKEN" \
+            --theme="$SHOPIFY_FLAG_THEME_ID"
