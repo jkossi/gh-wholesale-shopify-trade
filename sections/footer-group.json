@@ -48,6 +48,13 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "text_K49ndH": {
+          "type": "text",
+          "settings": {
+            "heading": "Contact Info",
+            "subtext": "<h5>Address:</h5><p>Community 4, Tema</p><h5>Phone:</h5><p>+233 54 598 7836</p><p>+161 45 191 151</p><h5>Email:</h5><p>info@ghamerican.com</p><h5>Working Days/Hours:</h5><p>Mon - Fri (8:00 AM - 6:00 PM)</p><p>Sat (9:00 AM - 1:00 PM)</p>"
+          }
+        },
         "link_list_6abeW7": {
           "type": "link_list",
           "settings": {
@@ -61,19 +68,12 @@
             "heading": "Heading",
             "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
           }
-        },
-        "text_K49ndH": {
-          "type": "text",
-          "settings": {
-            "heading": "Contact Info",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
-          }
         }
       },
       "block_order": [
+        "text_K49ndH",
         "link_list_6abeW7",
-        "text_V8YXQL",
-        "text_K49ndH"
+        "text_V8YXQL"
       ],
       "settings": {
         "color_scheme": "scheme-4",
