@@ -46,13 +46,13 @@
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "small",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-5",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "scheme-5",
         "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
         "show_text_below": false
       }
     },
@@ -127,11 +127,11 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
         "columns_desktop": 6,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
         "color_scheme": "scheme-2",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
@@ -164,18 +164,18 @@
     "featured_collection1": {
       "type": "featured-collection",
       "settings": {
+        "collection": "",
+        "products_to_show": 10,
         "title": "Proven bestsellers",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "",
-        "products_to_show": 10,
         "columns_desktop": 5,
+        "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
         "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -249,8 +249,9 @@
         "column7": {
           "type": "column",
           "settings": {
-            "title": "Add a customer testimonial",
-            "text": "",
+            "image": "shopify://shop_images/collecting-order-at-curbside-from-retail-store.jpg",
+            "title": "Delivered goods on time",
+            "text": "<p>I ordered boxes of drinks and the flow from purchase to delivery was hassle free. I love purchasing from Ghamerica whenever i'm in Ghana.</p>",
             "link_label": "Shop now",
             "link": ""
           }
@@ -258,8 +259,9 @@
         "column8": {
           "type": "column",
           "settings": {
-            "title": "Add a customer testimonial",
-            "text": "",
+            "image": "shopify://shop_images/smiling-cafe-owner.jpg",
+            "title": "Website is easy to use",
+            "text": "<p>\"I love that I can browse their full stock on their Shopify site, place my order, and have it delivered to my shop in Madina the same day. It’s a huge time-saver compared to fighting traffic in town. Highly recommended for busy shop owners!\"</p><p></p>",
             "link_label": "Shop now",
             "link": ""
           }
@@ -267,8 +269,9 @@
         "column9": {
           "type": "column",
           "settings": {
-            "title": "Add a customer testimonial",
-            "text": "",
+            "image": "shopify://shop_images/portrait-of-store-owner-in-his-store.jpg",
+            "title": "Quality products from America",
+            "text": "<p>Stopped by their physical store in Accra Central to check quality before placing a large order. They were well-stocked with quality products from America and the staff was friendly. The prices are competitive for true wholesale in Accra.</p>",
             "link_label": "Shop now",
             "link": ""
           }
@@ -276,8 +279,9 @@
         "column10": {
           "type": "column",
           "settings": {
-            "title": "Add a customer testimonial",
-            "text": "",
+            "image": "shopify://shop_images/woman-enjoying-coffee-and-book-in-the-kitchen.jpg",
+            "title": "Good price margins",
+            "text": "<p>Trustworthy wholesale partner! Their online store is easy to use, and delivery is always on time. They never disappoint, and their prices help me maintain good margins for my own retail business. Best service in Accra.</p>",
             "link_label": "Shop now",
             "link": ""
           }
@@ -294,11 +298,11 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
@@ -309,18 +313,18 @@
     "featured_collection2": {
       "type": "featured-collection",
       "settings": {
+        "collection": "",
+        "products_to_show": 6,
         "title": "New arrivals",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "",
-        "products_to_show": 6,
         "columns_desktop": 5,
+        "enable_desktop_slider": true,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
-        "enable_desktop_slider": true,
         "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -385,11 +389,11 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
         "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
         "color_scheme": "scheme-3",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
