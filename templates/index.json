@@ -145,7 +145,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Outstanding service | Secure payment | Exclusive pricing | Industry expertise</p>"
+            "text": "<p><br/>Outstanding service | Secure payment | Exclusive pricing | Industry expertise<br/><br/></p>"
           }
         }
       },
