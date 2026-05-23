@@ -94,7 +94,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/kirkland_signature.webp",
-            "title": "",
+            "title": "insert",
             "text": "",
             "link_label": "",
             "link": ""
