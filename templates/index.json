@@ -62,7 +62,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Insert partner logo",
+            "image": "shopify://shop_images/logo-welchs.243e73a.svg",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
