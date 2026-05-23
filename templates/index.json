@@ -91,8 +91,10 @@
         },
         "column4": {
           "type": "column",
+          "disabled": true,
           "settings": {
-            "title": "Insert partner logo",
+            "image": "shopify://shop_images/kirkland_signature.webp",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
