@@ -69,6 +69,16 @@
             "link": ""
           }
         },
+        "column_AtD7eV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/logo-welchs.243e73a.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column2": {
           "type": "column",
           "settings": {
@@ -122,6 +132,7 @@
       },
       "block_order": [
         "column1",
+        "column_AtD7eV",
         "column2",
         "column3",
         "column4",
