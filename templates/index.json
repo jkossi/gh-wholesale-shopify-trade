@@ -72,7 +72,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Insert partner logo",
+            "image": "shopify://shop_images/kellogg-logo-black.webp",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
