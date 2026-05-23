@@ -91,10 +91,9 @@
         },
         "column4": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/kirkland_signature.webp",
-            "title": "insert",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
