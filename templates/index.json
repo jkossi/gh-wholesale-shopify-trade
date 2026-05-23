@@ -82,7 +82,8 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Insert partner logo",
+            "image": "shopify://shop_images/Quaker_Logo_Header.png",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
