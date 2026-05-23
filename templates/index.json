@@ -112,7 +112,8 @@
         "column6": {
           "type": "column",
           "settings": {
-            "title": "Insert partner logo",
+            "image": "shopify://shop_images/dove_logo.avif",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
