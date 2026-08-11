@@ -198,38 +198,45 @@
     "collection_list": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_CgkVpV": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cookies"
+          }
+        },
         "featured_collection1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "alcohol"
           }
         },
         "featured_collection2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "drinks"
           }
         },
         "featured_collection3": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "beauty-hygiene"
           }
         },
         "featured_collection4": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "cereals"
           }
         },
         "featured_collection5": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "laundry-detergent"
           }
         }
       },
       "block_order": [
+        "featured_collection_CgkVpV",
         "featured_collection1",
         "featured_collection2",
         "featured_collection3",
