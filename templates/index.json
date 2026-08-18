@@ -204,10 +204,10 @@
             "collection": "cookies"
           }
         },
-        "featured_collection1": {
+        "featured_collection4": {
           "type": "featured_collection",
           "settings": {
-            "collection": "alcohol"
+            "collection": "cereals"
           }
         },
         "featured_collection2": {
@@ -216,16 +216,34 @@
             "collection": "drinks"
           }
         },
+        "featured_collection_YWJLcz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tissue-wipes-towels"
+          }
+        },
+        "featured_collection_z6Nw8X": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cooking-baking"
+          }
+        },
+        "featured_collection_AkNxha": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "creamer-sweetener"
+          }
+        },
+        "featured_collection1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "alcohol"
+          }
+        },
         "featured_collection3": {
           "type": "featured_collection",
           "settings": {
             "collection": "beauty-hygiene"
-          }
-        },
-        "featured_collection4": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cereals"
           }
         },
         "featured_collection5": {
@@ -237,10 +255,13 @@
       },
       "block_order": [
         "featured_collection_CgkVpV",
-        "featured_collection1",
-        "featured_collection2",
-        "featured_collection3",
         "featured_collection4",
+        "featured_collection2",
+        "featured_collection_YWJLcz",
+        "featured_collection_z6Nw8X",
+        "featured_collection_AkNxha",
+        "featured_collection1",
+        "featured_collection3",
         "featured_collection5"
       ],
       "settings": {
